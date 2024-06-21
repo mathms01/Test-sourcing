@@ -1,0 +1,24 @@
+{
+  "sites": [
+    {
+      "url": "https://www.llnsciencepark.be/entreprises",
+      "nameXPath": "//div[contains(@class, 'tile-body')]//h3",
+      "descriptionXPath": "//div[contains(@class, 'tile-body')]//p",
+      "salesXPath": "//div[contains(@class, 'tile-body')]//p",
+      "employeesXPath": "//div[contains(@class, 'tile-body')]//p",
+      "location": "louvain"
+    },
+    {
+      "url": "https://www.liegesciencepark.net/annuaire/",
+      "nameXPath": "//tr[contains(@class, 'manual-striped-odd')]//td//p//strong",
+      "descriptionXPath": "//tr[contains(@class, 'manual-striped-odd')]//td//address",
+      "location": "liege"
+    },
+    {
+      "url": "https://biopark.be/en/about-us/our-members",
+      "nameXPath": "//div[contains(@class, 'whois_list_databox')]//h3",
+      "descriptionXPath": "//div[contains(@class, 'whois_list_databox')]//p",
+      "location": "charleroi"
+    }
+  ]
+}
