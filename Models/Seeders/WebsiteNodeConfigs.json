@@ -10,8 +10,8 @@
     },
     {
       "url": "https://www.liegesciencepark.net/annuaire/",
-      "nameXPath": "//tr[contains(@class, 'manual-striped-odd')]//td//p//strong",
-      "descriptionXPath": "//tr[contains(@class, 'manual-striped-odd')]//td//address",
+      "nameXPath": "//*[@id=\"content\"]/div/table/tbody/tr[1]/td[2]/p[1]/strong",
+      "descriptionXPath": "//*[@id=\"content\"]/div/table/tbody/tr[1]/td[2]/address",
       "location": "liege"
     },
     {
